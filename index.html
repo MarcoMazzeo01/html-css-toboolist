@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./style.css">
 
     <!-- Importo Google Font "Poppins" usando <link> anzichè @import per velocizzare il caricamento -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 </head>
 
@@ -36,33 +36,34 @@
             <section>
                 <h3 class="section_header">New Task</h2>
 
-                <ul>
-                    <li>Quarterly Newsletter</li>
-                </ul>
+                    <ul>
+                        <li class="task completed">Quarterly Newsletter <span class="label editorial">Editorial</span>
+                        </li>
+                    </ul>
             </section>
 
             <!-- TODAY'S TASKS -->
             <section>
                 <h3 class="section_header">Today</h2>
 
-                <ul>
-                    <li>Recruiting blog post</li>
-                    <li>Mobile app launch</li>
-                    <li>Interview John H.</li>
-                    <li> Summit update to mobile storefronts</li>
-                </ul>
+                    <ul>
+                        <li class="task completed">Recruiting blog post <span class="label editorial">Editorial</span></li>
+                        <li class="task completed">Mobile app launch <span class="label goals">Q1 Goals</span></li>
+                        <li class="task unfinished">Interview John H. <span class="label recruit">Recruiting</span></li>
+                        <li class="task completed">Summit update to mobile storefronts <span class="label mobile">Mobile</span></li>
+                    </ul>
             </section>
 
             <!-- UPCOMING TASKS -->
             <section>
                 <h3 class="section_header">Upcoming</h2>
 
-                <ul>
-                    <li>Schedule meeting with Alex</li>
-                    <li>Homepage refresh</li>
-                    <li>Onboard new Sales team members</li>
-                    <li>Review editorial calendar</li>
-                </ul>
+                    <ul>
+                        <li class="task unfinished">Schedule meeting with Alex</li>
+                        <li class="task completed">Homepage refresh <span class="label website">Website</span></li>
+                        <li class="task completed">Onboard new Sales team members <span class="label sales">Sales</span></li>
+                        <li class="task completed">Review editorial calendar <span class="label editorial">Editorial</span></li>
+                    </ul>
             </section>
         </div>
     </main>
