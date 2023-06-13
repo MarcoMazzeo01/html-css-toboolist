@@ -1,5 +1,4 @@
 /* UTILS */
-
 *{
     box-sizing: border-box;
 }
@@ -19,13 +18,12 @@ header {
 
 main {
     width: 80%;
-    background-color: white;
-    margin: 30px auto;
-    border-radius: 10px;
-    
+    background-color: #ffffff;
+    margin: auto; 
 }
 
 
+/* HEADER */
 header > img {
     vertical-align: middle;
 }
@@ -39,12 +37,19 @@ header > img {
     display: inline;
 }
 
+
+/* CONTAINERS */
 .buttons_container, .tasks_container {
-    margin-left: auto;
-    margin-right: auto;
     padding: 20px 50px;
-    background-color: #ffffff;
 }
+
+.buttons_container {
+    margin-top: 30px;
+    border-bottom: #f6f8f9 solid 3px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
 
   /* BUTTONS CSS */
 .add_task, .add_section {
@@ -67,9 +72,12 @@ header > img {
     color: #c1ced0;
 }
 
-.buttons_container {
-    margin-top: 30px;
-    border-bottom: #f6f8f9 solid 3px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+
+/* SECTIONS */
+.section_header {
+    display: inline-block;
+}
+
+.section_header:before {
+    content: '\25BC ';
 }
