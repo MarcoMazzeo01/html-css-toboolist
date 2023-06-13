@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background-color: #f6f8f9;
@@ -8,19 +12,54 @@ header {
     background-color: #ffffff;
     width: 100%;
     height: 100px;
-    line-height: 100px;
+    padding-left: 20px;
+}
+
+hr {
+    width: 100%;
+    background-color: #f6f8f9;
+    height: 4px;
 }
 
 header > img {
     vertical-align: middle;
 }
 
+.logo_text  {
+    font-weight: 900;
+    font-size: 2.5em;
+    color: #031732;
+    vertical-align: middle;
+    line-height: 100px;
+    display: inline;
+}
+
 main {
-    background-color: #ffffff;
+    background: #ffffff;
+    padding: 20px 50px;
+    margin: 40px auto;
     border-radius: 5px;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
     width: 80%;
-    padding: 10px;
+  }
+
+
+  /* BUTTONS CSS */
+main > button {
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.add_task {
+    background-color: #14aaf5;
+    color: #ffffff;
+    border: #14aaf5 solid 1.5px;
+}
+
+.add_section {
+    background-color: #ffffff;
+    border: #c1ced0 solid 1.5px;
+    color: #c1ced0;
 }
