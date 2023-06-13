@@ -1,161 +1,158 @@
 /* UTILS */
-*{
-    box-sizing: border-box;
-}
 
-body {
-    background-color: #f6f8f9;
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f6f8f9;
     font-family: 'Poppins', sans-serif, Arial;
     margin: 0;
-}
-
-header {
-    background-color: #ffffff;
+  }
+  
+  header {
+    background: #ffffff;
     width: 100%;
     height: 100px;
     padding-left: 20px;
-}
-
-main {
+  }
+  
+  main {
     width: 80%;
-    margin: auto; 
-}
-
-ul {
+    margin: auto;
+  }
+  
+  ul {
+    list-style: none;
     margin-top: 0;
     margin-bottom: 30px;
     padding: 0;
-    list-style-type: none;
-}
-
-
-/* HEADER */
-header > img {
+  }
+  
+  /* HEADER */
+  
+  header > img {
     vertical-align: middle;
-}
-
-.logo_text  {
+  }
+  
+  .logo_text {
     font-weight: 900;
     font-size: 2.5em;
     color: #031732;
     vertical-align: middle;
     line-height: 100px;
     display: inline;
-}
-
-
-/* CONTAINERS */
-.buttons_container, .tasks_container {
+  }
+  
+  /* CONTAINERS */
+  
+  .buttons_container,
+  .tasks_container {
     padding: 20px 50px;
-}
-
-.buttons_container {
+  }
+  
+  .buttons_container {
+    background: #ffffff;
     margin-top: 30px;
     border-bottom: #f6f8f9 solid 3px;
-    background-color: #ffffff;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-}
-
-.tasks_container{
-    background-color: #ffffff;
+  }
+  
+  .tasks_container {
+    background: #ffffff;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     margin-bottom: 20px;
-}
-
-
+  }
+  
   /* BUTTONS CSS */
-.add_task, .add_section {
+  
+  .add_task,
+  .add_section {
+    padding: 5px 8px;
     border-radius: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-.add_task {
-    background-color: #14aaf5;
+  }
+  
+  .add_task {
+    background: #14aaf5;
     color: #ffffff;
     border: #14aaf5 solid 1.5px;
-}
-
-.add_section {
-    background-color: #ffffff;
+  }
+  
+  .add_section {
+    background: #ffffff;
     border: #c1ced0 solid 1.5px;
     color: #c1ced0;
-}
-
-
-/* SECTIONS */
-.section_header {
+  }
+  
+  /* SECTIONS */
+  
+  .section_header {
     margin-bottom: 0;
-}
-
-.section_header:before {
+  }
+  
+  .section_header:before {
     content: '\25BC ';
-}
-
-
-/* TASKS LIST */
-.task:before {
+  }
+  
+  /* TASKS LIST */
+  
+  .task:before {
     border-radius: 50%;
-    margin-right:5px;
+    margin-right: 5px;
     vertical-align: middle;
     line-height: 0;
     padding-left: 0.25em;
     padding-right: 0.25em;
   }
-
+  
   ul li {
     margin-top: 10px;
   }
-
-  .completed:before{
+  
+  .completed:before {
     content: '\2714';
     border: #2fc6ac solid 1px;
     color: #2fc6ac;
   }
-
-  .unfinished:before{
+  
+  .unfinished:before {
     content: '\2718';
     border: #ff4646 solid 1px;
     color: #ff4646;
   }
-
-
-/* LABELS */
-.label {
+  
+  /* LABELS */
+  
+  .label {
+    padding: 6px 10px;
     color: #ffffff;
     border-radius: 13px;
     font-size: 11px;
     margin-left: 2.5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-}
-
-.editorial{
-    background-color: #09a9ed;
-}
-
-.goals {
-    background-color: #ab5de6;
-}
-
-.recruit {
-    background-color: #2cc6ab;
-}
-
-.mobile {
-    background-color: #ff9b00;
-}
-
-.sales {
-    background-color: #a3d116;
-}
-
-.website {
-    background-color: #ec4a9d;
-}
+  }
+  
+  .editorial {
+    background: #09a9ed;
+  }
+  
+  .goals {
+    background: #ab5de6;
+  }
+  
+  .recruit {
+    background: #2cc6ab;
+  }
+  
+  .mobile {
+    background: #ff9b00;
+  }
+  
+  .sales {
+    background: #a3d116;
+  }
+  
+  .website {
+    background: #ec4a9d;
+  }
